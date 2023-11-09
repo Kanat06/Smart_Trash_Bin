@@ -73,7 +73,7 @@ We would like to thank the creators of the cvzone and OpenCV libraries for their
 
 ## Contact
 
-For any inquiries or feedback, please contact us at [your-email@example.com](mailto:your-email@example.com).
+For any inquiries or feedback, please contact us at [tazhihan_kanat@mail.ru](mailto:tazhihan_kanat@mail.ru).
 
 ---
 
