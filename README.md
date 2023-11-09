@@ -63,10 +63,6 @@ If you encounter any issues, try the following steps:
 
 Contributions are welcome! If you have suggestions for improvements or new features, please submit a pull request.
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
 ## Acknowledgments
 
 We would like to thank the creators of the cvzone and OpenCV libraries for their invaluable contributions to this project.
