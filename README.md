@@ -1,61 +1,80 @@
 # Smart_Trash_Bin
 Waste sorting with AI
-Project Description
-[A brief description of your project goes here. Explain what the project does and what problem it solves.]
+# Project Name
 
-Prerequisites
-[List any prerequisites or dependencies that users need to install or have before using your project. Include links if necessary.]
+Control Motor Movement Using Computer Vision
 
-Python 3.x
-OpenCV
-cvzone
-RPi.GPIO
-Your trained model (keras_model.h5) and labels (labels.txt)
-Installation
-[Provide step-by-step instructions on how to install or set up your project. Be sure to include code snippets if necessary.]
+## Description
 
-Clone the repository:
+This project enables the control of motor movement through a Raspberry Pi using computer vision. It captures video from a camera and processes it to recognize specific objects or gestures, which then trigger corresponding motor movements.
 
-bash
-Copy code
-git clone https://github.com/yourusername/your-repo.git
-cd your-repo
-Install the required dependencies:
+## Prerequisites
 
-bash
-Copy code
-pip install opencv-python cvzone RPi.GPIO
-Place your trained model (keras_model.h5) and labels (labels.txt) in the project directory.
+- Python 3.x
+- OpenCV
+- cvzone
+- RPi.GPIO
+- Trained model (keras_model.h5) and labels (labels.txt)
 
-Usage
-[Explain how to use your project. Provide examples and code snippets if possible.]
+## Installation
 
-Connect your hardware as described in the script (IN1, IN2, IN3, IN4, IN01, IN02, IN03, IN04).
+1. Clone the repository:
 
-Run the script:
+   ```bash
+   git clone https://github.com/yourusername/your-repo.git
+   cd your-repo
+   ```
 
-bash
-Copy code
-python your_script.py
-[Provide any specific instructions on interacting with your project.]
+2. Install the required dependencies:
 
-Features
-[Highlight the key features of your project.]
+   ```bash
+   pip install opencv-python cvzone RPi.GPIO
+   ```
 
-Feature 1: [Describe feature 1]
-Feature 2: [Describe feature 2]
-...
-Troubleshooting
-[Include a troubleshooting section to address common issues users might encounter and how to resolve them.]
+3. Place your trained model (keras_model.h5) and labels (labels.txt) in the project directory.
 
-Contributing
-[Explain how others can contribute to your project, whether it's through bug reports, feature requests, or code contributions.]
+## Usage
 
-License
-[Specify the license under which your project is released. Common licenses include MIT, GPL, or Apache. Include a link to the license file if applicable.]
+1. Connect your hardware as described in the script (IN1, IN2, IN3, IN4, IN01, IN02, IN03, IN04).
 
-Acknowledgments
-[Mention any libraries, tools, or individuals you'd like to acknowledge for their contributions or support.]
+2. Run the script:
 
-Contact
-[Provide a way for users to contact you, whether it's through email, GitHub issues, or other means.]
+   ```bash
+   python your_script.py
+   ```
+
+3. Follow the instructions displayed on the OpenCV window.
+
+## Features
+
+- Supports real-time video processing
+- Recognizes predefined gestures or objects
+- Controls motor movement based on recognized input
+
+## Troubleshooting
+
+If you encounter any issues, try the following steps:
+
+- Check your hardware connections.
+- Ensure the GPIO pins are set up correctly.
+- Verify that the necessary libraries and dependencies are installed.
+
+## Contributing
+
+Contributions are welcome! If you have suggestions for improvements or new features, please submit a pull request.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Acknowledgments
+
+We would like to thank the creators of the cvzone and OpenCV libraries for their invaluable contributions to this project.
+
+## Contact
+
+For any inquiries or feedback, please contact us at [your-email@example.com](mailto:your-email@example.com).
+
+---
+
+Feel free to customize this template further and add relevant information to make it more comprehensive and visually appealing.
